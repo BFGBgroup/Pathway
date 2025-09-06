@@ -115,7 +115,7 @@ The following minimal data files are required and must be placed in the `data/` 
 
 ### **2. R Script**
 
-* `R/generate_figures.R`
+* `generate_figures.R`
 
     This is the main script that executes the entire workflow. It performs the following steps:
     1.  Installs and loads all required R packages.
