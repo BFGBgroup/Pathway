@@ -104,7 +104,7 @@ The codes and annotations please refer to the R script **pipeline.ssGSVA.and.cor
 
 The process is managed by a single R script that reads data from the `data/` folder and outputs figures to the `figures/` folder.
 
-### **1. Input Data**
+### **6.1 Input Data**
 
 The following minimal data files are required and must be placed in the `data/` directory.
 
@@ -113,7 +113,7 @@ The following minimal data files are required and must be placed in the `data/` 
 * `MayoRNA_PRS_cov.txt`: A table containing phenotype information, covariates, and the calculated Polygenic Risk Score (PRS) for each sample.
 * `SEM_lisrel(cerebellum).OUT`: The output file from a LISREL analysis, used to build the Structural Equation Model (SEM) path diagram.
 
-### **2. R Script**
+### **6.2 R Script**
 
 * `generate_figures.R`
 
@@ -125,7 +125,7 @@ The following minimal data files are required and must be placed in the `data/` 
     5.  Creates the `figures/` directory if it does not already exist.
     6.  Saves the final plots as PDF files into the `figures/` directory.
 
-### **3. Output Figures**
+### **6.3 Output Figures**
 
 Running the script will produce the following files inside the `figures/` directory:
 
